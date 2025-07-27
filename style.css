@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+.login-container{
+    width:30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-left:auto;
+    margin-right:auto
+}
+.login-container h2{
+text-align: center;
+margin-bottom:-5px;
+font-weight: 500;
+color: #1c1c1c
+}
+.inner{
+    margin: 1em 0;
+}
+.input-label{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+label{
+    font-size: 0.7em;
+    padding: 0.5em 0;
+    color: #414651
+}
+
+button{
+    width: unset;
+    height: 30px;
+    background-color: #7816C9;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 11px;
+    transition: all 0.3s ease-out;
+    
+}
+button:hover{
+    background-color: #7129ac;
+    
+
+}
+h5{
+    font-size: 11px;
+    text-align: end;
+    margin:1em 0;
+    font-weight: normal;
+    color: #414651;
+}
+h6{
+    text-align: center;
+    font-weight: normal;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+a{
+    color: #2a94f4;
+    text-decoration: none;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D5D7DA;
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: #fff;
+}
+
+.input-wrapper img {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.input-wrapper input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
